@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-image: url('waterere.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav {
+    text-align: center;
+    background-color: #f0f0f0ad;
+    padding: 1px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 10%;
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0cb;
+    border-radius: 8px;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-left:20pt;
+    margin-right:20pt;
+}
+
+section {
+    background-color: #f9f9f9ad;
+    border: double #45b5ff;
+    padding: 1%;
+    border-radius: 8px;
+    margin-bottom: 1%;
+    margin-left:20pt;
+    margin-right:20pt;
+}
+
+nav .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .button a {
+    margin: 1px 1px;
+    padding: 1px 2px;
+    background-color: #bef8f096;
+    border-radius: 2%;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav .button a:hover {
+    background-color: #ddd;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+.module {
+    background-color: rgba(168, 247, 221, 0.623);
+    border-style: double;
+    margin: 10pt;
+    padding: 10pt;
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    height: 600pt;
+}
+
+.container {
+    text-align: center;
+}
+
+.section {
+    padding: 10pt;
+}
+
+@media (max-width:400px) {
+    section{
+        margin-left:0pt;
+        margin-right:0pt;
+    }
+}
+
+@media (max-width:690px) {
+    .module {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (min-width:700px) {
+    img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .module {
+        width: 35vw;
+        height: 630pt;
+    }
+}
+
+@media (min-width:1500px) {
+    img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .module {
+        width: 18vw;
+        height: 700pt;
+    }
+}

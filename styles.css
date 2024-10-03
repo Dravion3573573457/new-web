@@ -28,8 +28,8 @@ header {
     border-radius: 8px;
     padding: 1%;
     margin-bottom: 1%;
-    margin-left:20pt;
-    margin-right:20pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
 
 section {
@@ -38,8 +38,12 @@ section {
     padding: 1%;
     border-radius: 8px;
     margin-bottom: 1%;
-    margin-left:20pt;
-    margin-right:20pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+h1 {
+    text-align: center
 }
 
 nav .button {
@@ -90,9 +94,9 @@ img {
 }
 
 @media (max-width:400px) {
-    section{
-        margin-left:0pt;
-        margin-right:0pt;
+    section {
+        margin-left: 0pt;
+        margin-right: 0pt;
     }
 }
 
